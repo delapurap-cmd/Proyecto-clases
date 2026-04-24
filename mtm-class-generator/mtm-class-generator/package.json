@@ -1,0 +1,17 @@
+{
+  "name": "mtm-class-generator",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "install-browser": "npx playwright install chromium",
+    "class": "node src/render-class.mjs",
+    "prompt": "node src/prompt-to-pdf.mjs",
+    "smoke": "MTM_SOURCE_HTML=source/demo_proyecto_clases_con_monitor.html MTM_TARGETS_JSON=adapter/demo-targets.json node src/render-class.mjs class-data/Dm.json",
+    "class:system-chromium": "CHROMIUM_PATH=/usr/bin/chromium node src/render-class.mjs",
+    "pdf": "node src/pdf-from-html.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "latest",
+    "playwright": "latest"
+  }
+}

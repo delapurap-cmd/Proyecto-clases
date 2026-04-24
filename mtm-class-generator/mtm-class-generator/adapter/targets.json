@@ -1,0 +1,28 @@
+{
+  "staff": {
+    "label": "Pentagrama",
+    "preclick": "button[data-tab='piano']",
+    "frame": "#pianoFrame",
+    "selector": "#score-wrap",
+    "fallbackSelector": "body"
+  },
+  "circle": {
+    "label": "Círculo",
+    "preclick": "button[data-tab='circulo']",
+    "selector": ".widget-body",
+    "fallbackSelector": "body"
+  },
+  "fretboard": {
+    "label": "Fretboard",
+    "preclick": "button[data-tab='fretboard']",
+    "selector": ".widget-body",
+    "fallbackSelector": "body"
+  },
+  "piano": {
+    "label": "Piano",
+    "preclick": "button[data-tab='piano']",
+    "frame": "#pianoFrame",
+    "selector": "#piano-wrap",
+    "fallbackSelector": "body"
+  }
+}

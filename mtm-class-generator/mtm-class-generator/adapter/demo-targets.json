@@ -1,0 +1,22 @@
+{
+  "staff": {
+    "label": "Pentagrama",
+    "preclick": "button[data-tab='piano']",
+    "selector": "#score-wrap"
+  },
+  "circle": {
+    "label": "Círculo",
+    "preclick": "button[data-tab='circulo']",
+    "selector": "#circlePanel .module"
+  },
+  "fretboard": {
+    "label": "Fretboard",
+    "preclick": "button[data-tab='fretboard']",
+    "selector": "#fretPanel .module"
+  },
+  "piano": {
+    "label": "Piano",
+    "preclick": "button[data-tab='piano']",
+    "selector": "#piano-wrap"
+  }
+}

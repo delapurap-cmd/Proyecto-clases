@@ -1,0 +1,14 @@
+{
+  "id": "Dm",
+  "title": "D minor",
+  "root": "D",
+  "quality": "minor",
+  "symbol": "Dm",
+  "notes": ["D", "F", "A"],
+  "midi": [62, 65, 69],
+  "modules": ["staff", "circle", "fretboard", "piano"],
+  "copy": {
+    "headline": "Acorde de Dm",
+    "summary": "D minor se forma con D - F - A: tónica, tercera menor y quinta justa."
+  }
+}
